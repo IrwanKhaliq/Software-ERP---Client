@@ -1,0 +1,7 @@
+@media only screen and (min-width: 375px) {
+  .bg {
+    background-repeat: no-repeat;
+    background-image: url('./payment.png');
+    background-size: 100vw;
+  }
+}

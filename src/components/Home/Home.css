@@ -1,0 +1,12 @@
+.mt-20 {
+  padding-top: 170px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 375px) {
+  .homes {
+    background-repeat: no-repeat;
+    background-image: url('./home.png');
+    background-size: 100vw;
+  }
+}

@@ -1,3 +1,11 @@
+/* @media only screen and (min-width: 375px) {
+  .bg {
+    background-repeat: no-repeat;
+    background-image: url('./components/Home/home.png');
+    background-size: 100vw;
+  }
+} */
+
 .App {
   text-align: center;
 }

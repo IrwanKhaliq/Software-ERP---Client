@@ -1,0 +1,10 @@
+.wid-100 {
+  width: 200px;
+}
+
+.about, .home, .pricing, .contact {
+  color: black;
+}
+.about:hover, .home:hover, .pricing:hover, .contact:hover {
+  color: rgb(68, 106, 255);
+}
