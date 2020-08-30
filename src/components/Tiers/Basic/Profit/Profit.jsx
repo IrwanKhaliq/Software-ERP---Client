@@ -40,19 +40,36 @@ const Profit = () => {
           </tr>
           <tr className="table-light">
             <td>
-              <div className="input-group input-group-sm mb-3">
-                <input type="date" className="form-control text-center" aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+              <div 
+                className="input-group input-group-sm mb-3"
+              >
+                <input
+                  type="date"
+                  className="form-control text-center"
+                  aria-label="Small"
+                  aria-describedby="inputGroup-sizing-sm"
+                />
               </div>
             </td>
             <td>
-              <div className="input-group input-group-sm mb-3">
-                <input type="text" className="form-control text-center" placeholder="profit"  aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+              <div 
+                className="input-group input-group-sm mb-3"
+              >
+                <input
+                  type="text"
+                  className="form-control text-center"
+                  placeholder="profit"
+                  aria-label="Small"
+                  aria-describedby="inputGroup-sizing-sm"
+                />
               </div>
             </td>
           </tr>
           <tr>
             <th>Total Profit</th>
-            <td><b>300,000,000</b></td>
+            <td>
+              <b>300,000,000</b>
+            </td>
           </tr>
         </tbody>
       </table>

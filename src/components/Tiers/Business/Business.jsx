@@ -84,7 +84,8 @@ const Business = () => {
     <>
       <div className="d-flex flex-wrap justify-content-center">
         <Chart title={'Analisis Penjualan'} data={data1} />
-        { window.location.pathname === '/tiers/entrepreneur' &&
+        { 
+          window.location.pathname === '/tiers/entrepreneur' &&
           <Chart title={'AI Analysist'} data={data2} />
         }
       </div>

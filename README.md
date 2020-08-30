@@ -18,7 +18,9 @@ run <i><b>npm start</b></i>
 
 <b>React Router :</b> for switch between page
 
-<b>React Bootstrap - Bootstrap :</b> make a beautiful UI
+<b>React Scroll :</b> Scroll Animation
+
+<b>React Bootstrap - Bootstrap :</b> as Framework UI
 
 <b>SASS :</b> for styling component
 

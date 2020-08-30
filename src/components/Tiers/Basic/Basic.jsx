@@ -66,49 +66,118 @@ const Basic = () => {
             />
             <tr className="table-light">
               <td>
-                <div className="input-group input-group-sm mb-3">
-                  <input type="date" className="form-control text-center" aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+                <div
+                  className="input-group input-group-sm mb-3"
+                >
+                  <input
+                    type="date" className="form-control text-center" aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
                 </div>
               </td>
               <td>
-                <div className="input-group input-group-sm mb-3">
-                  <input type="number" className="form-control text-center" placeholder="kode transaksi"  aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+                <div
+                  className="input-group input-group-sm mb-3"
+                >
+                  <input
+                    type="number"
+                    className="form-control text-center"
+                    placeholder="kode transaksi"
+                     aria-label="Small"
+                     aria-describedby="inputGroup-sizing-sm"
+                    />
                 </div>
               </td>
               <td colspan="2">
-                <div className="input-group input-group-sm mb-3">
-                  <input type="text" className="form-control text-center" placeholder="nama barang"  aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+                <div
+                  className="input-group input-group-sm mb-3"
+                >
+                  <input
+                    type="text"
+                    className="form-control text-center"
+                    placeholder="nama barang"
+                     aria-label="Small"
+                     aria-describedby="inputGroup-sizing-sm"
+                    />
                 </div>
               </td>
               <td>
-                <div className="input-group input-group-sm mb-3">
-                  <input type="text" className="form-control text-center" placeholder="jumlah barang" aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+                <div
+                  className="input-group input-group-sm mb-3"
+                >
+                  <input
+                    type="text"
+                    className="form-control text-center"
+                    placeholder="jumlah barang"
+                    aria-label="Small"
+                    aria-describedby="inputGroup-sizing-sm"
+                  />
                 </div>
               </td>
               <td>
-                <div className="input-group input-group-sm mb-3">
-                  <input type="text" className="form-control text-center" placeholder="harga satuan"  aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+                <div
+                  className="input-group input-group-sm mb-3"
+                >
+                  <input
+                    type="text"
+                    className="form-control text-center"
+                    placeholder="harga satuan"
+                     aria-label="Small"
+                     aria-describedby="inputGroup-sizing-sm"
+                    />
                 </div>
               </td>
               <td>
-                <div className="input-group input-group-sm mb-3">
-                  <input type="text" className="form-control text-center" placeholder="pengirim/penerima" aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+                <div
+                  className="input-group input-group-sm mb-3"
+                >
+                  <input
+                    type="text"
+                    className="form-control text-center"
+                    placeholder="pengirim/penerima"
+                    aria-label="Small"
+                    aria-describedby="inputGroup-sizing-sm"
+                  />
                 </div>
               </td>
               <td colspan="2">
-                <div className="input-group input-group-sm mb-3">
-                  <input type="text" className="form-control text-center" placeholder="debit"  aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+                <div
+                  className="input-group input-group-sm mb-3"
+                >
+                  <input
+                    type="text"
+                    className="form-control text-center"
+                    placeholder="debit"  
+                    arialabel="Small" 
+                    ariadescribedby="inputGroup-sizing-sm"
+                  />
                 </div>
               </td>
               <td colspan="2">
-                <div className="input-group input-group-sm mb-3">
-                  <input type="text" className="form-control text-center" placeholder="kredit"  aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+                <div
+                  className="input-group input-group-sm mb-3"
+                >
+                  <input
+                    type="text"
+                    className="form-control text-center"
+                    placeholder="kredit"
+                    arialabel="Small"
+                    ariadescribedby="inputGroup-sizing-sm"
+                  />
                 </div>
               </td>
             </tr>
             <tr>
-              <td colspan="7" className="text-right"><b>Pendapatan</b></td>
-              <td colspan="3" className="text-center"><b>25,000</b></td>
+              <td
+                colspan="7"
+                className="text-right"
+              >
+                <b>Pendapatan</b>
+              </td>
+              <td
+                colspan="3"
+                className="text-center"
+              >
+                <b>25,000</b>
+              </td>
             </tr>
           </tbody>
         </table>
