@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './About.scss'
+
 const about = () => {
   return (
     <div className="mr-5 ml-5">

@@ -1,11 +1,11 @@
 import React from 'react';
 
-import './Entrepreneur.css'
+import './Entrepreneur.scss'
 
 const Entrepreneur = () => {
   return (
     <div className="d-flex flex-wrap justify-content-center pt-5">
-      <div className="card mr-2 pt-2 mb-2" style={{ minWidth: '600px', height: '70px' }}>
+      <div className="card mr-2 pt-2 mb-2 card-width card-height">
         <div className="d-flex flex-wrap justify-content-around">
           <p className="m-auto">Export data to Excel</p>
           <select id="card_type" name="card_type" className="custom-select mt-1 mb-1 mr-auto ml-auto" style={{ width: '100px' }}>
@@ -20,7 +20,7 @@ const Entrepreneur = () => {
           <button type="button" class="btn btn-primary justify-content-end w-50 mt-1 mb-1 mr-auto ml-auto">Export</button>
         </div>
       </div>
-      <div className="card ml-2 mb-5" style={{ minWidth: '600px' }}>
+      <div className="card ml-2 mb-5 card-width">
         <div className="d-flex flex-wrap justify-content-around">
           <p className="m-auto">Analyst</p>
           <select id="card_type" name="card_type" className="custom-select mt-3 mb-3 mr-auto ml-auto" style={{ width: '100px' }}>

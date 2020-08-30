@@ -1,0 +1,27 @@
+$hundredVw: 100vw;
+$noRepeat: no-repeat;
+$imageCenter: url('../images/center.png');
+$imageMiniDesktop: url('../images/mini_desktop.png');
+$imageMobile: url('../images/mobile.png');
+
+@media only screen and (min-width: 1286px) {
+  .logins {
+    background-repeat: $noRepeat;
+    background-image: $imageCenter;
+    background-size: $hundredVw;
+  }
+}
+
+@media only screen and (max-width: 1285px, min-width 415px) {
+  .logins {
+    background-image: $imageMiniDesktop;
+    background-size: $hundredVw;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .logins {
+    background-image: $imageMobile;
+    background-size: $hundredVw;
+  }
+}

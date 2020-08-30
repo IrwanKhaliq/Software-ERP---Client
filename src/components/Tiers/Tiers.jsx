@@ -1,12 +1,11 @@
 import React from 'react';
 
-import './Tiers.css'
+import './Tiers.scss'
 
 import Navigation from '../Navigation/Navigation'
 import Basic from './Basic/Basic'
 import Business from './Business/Business'
 import Entrepreneur from './Entrepreneur/Entrepreneur'
-// import Support from './Support/Support'
 
 const Tiers = () => {
   return (
@@ -19,9 +18,6 @@ const Tiers = () => {
         <Entrepreneur />
       }
       <Basic />
-      {/* { window.location.pathname === "/tiers/entrepreneur" &&
-        <Support />
-      } */}
     </div>
   );
 }

@@ -1,0 +1,16 @@
+$sixHundredPxl: 600px;
+$threeHundredPxl: 300px;
+
+
+@media only screen and (min-width: 376px) {
+  .chart {
+    width: $sixHundredPxl;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .chart {
+    justify-content: center;
+    width: $threeHundredPxl;
+  }
+}

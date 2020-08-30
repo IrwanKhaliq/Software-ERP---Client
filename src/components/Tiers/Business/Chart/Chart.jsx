@@ -1,7 +1,7 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2'
 
-import './Chart.css'
+import './Chart.scss'
 
 const Chart = ({ title, data }) => {
   return (

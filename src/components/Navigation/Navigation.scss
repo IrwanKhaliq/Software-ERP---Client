@@ -1,0 +1,37 @@
+$hundredPxl: 100px;
+$twoHundredPx: 200px;
+$black: black;
+$hover: rgb(68, 106, 255);
+$fontSizeHome: 4vw;
+$fontSizeMainNav: 2vw;
+$sevenVw: 7vw;
+
+@media only screen and (min-width: 415px) {
+  .wid-100 {
+    width: $twoHundredPx;
+  }
+  .home {
+    color: $black;
+  }
+}
+
+.about, .pricing, .contact {
+  color: $black;
+}
+.about:hover, .home:hover, .pricing:hover, .contact:hover {
+  color: $hover;
+}
+
+@media only screen and (max-width: 414px) {
+  .home {
+    font-size: $fontSizeHome;
+    color: $black
+  }
+  .other-nav-home {
+    max-width: $sevenVw;
+    max-height: $sevenVw;
+  }
+  .other-nav {
+    max-width: $hundredPxl;
+  }
+}

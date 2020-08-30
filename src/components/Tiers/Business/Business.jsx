@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './Business.css'
-
 import Chart from './Chart/Chart'
+
+import './Business.scss'
 
 const data1 = {
   labels: ['March', 'April', 'May', 'June', 'July', 'August'],

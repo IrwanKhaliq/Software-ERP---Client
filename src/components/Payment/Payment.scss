@@ -1,0 +1,28 @@
+$hundredVw: 100vw;
+$noRepeat: no-repeat;
+$imagePayment: url('../images/payment.png');
+$imageMiniDesktop: url('../images/mini_desktop.png');
+$imageMobile: url('../images/mobile.png');
+
+@media only screen and (min-width: 1351px) {
+  .bg {
+    background-repeat: $noRepeat;
+    background-image: $imagePayment;
+    background-size: $hundredVw;
+  }
+}
+
+@media only screen and (max-width: 1350px, min-width 415px) {
+  .bg {
+    background-repeat: $noRepeat;
+    background-image: $imageMiniDesktop;
+    background-size: $hundredVw;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .bg {
+    background-image: $imageMobile;
+    background-size: $hundredVw;
+  }
+}

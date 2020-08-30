@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './TableBody.scss'
+
 const TableBody = ({ tanggal, kode, nama_barang, jumlah, harga, person, debit, kredit }) => {
   return (
     <tr className="text-center">

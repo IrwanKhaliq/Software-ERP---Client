@@ -1,16 +1,16 @@
 import React from 'react';
 
-import './Basic.css'
+import './Basic.scss'
 
 import TableBody from './TableBody/TableBody'
 import Profit from './Profit/Profit'
 
 const Basic = () => {
   return (
-    <div className="d-flex mt-5">
+    <div className="d-flex mt-5 table-size">
       <div className="table-responsive mr-5">
         <h4>Masuk Keluar Barang</h4>
-        <table className="table table-hover masuk-keluar-table">
+        <table className="table table-hover">
           <thead>
             <tr className="text-center table-primary">
               <th scope="col">Tanggal</th>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-import './Price.css'
+import './Price.scss'
 
 const Price = ({ price, category, benefits, booleans, color }) => {
 
@@ -12,7 +12,7 @@ const Price = ({ price, category, benefits, booleans, color }) => {
     <div className="card w-18">
       <ul className="list-group list-group-flush">
         { benefits.map((el, i) => (
-          <li className="list-group-item text-center">
+          <li key={i} className="list-group-item text-center">
             { booleans[i] && <img src="https://img.icons8.com/emoji/20/000000/check-mark-emoji.png" alt="check icon"/> } 
             { !booleans[i] && <img src="https://img.icons8.com/emoji/20/000000/cross-mark-emoji.png" alt="cross icon"/> } 
             <br/>
@@ -23,7 +23,7 @@ const Price = ({ price, category, benefits, booleans, color }) => {
       </ul>
     </div><br/>
     <Link to={`/tiers/${category}`}>
-      <button type="button" class={`btn ${color} w-100`}>Try</button>
+      <button type="button" className={`btn ${color} w-100`}>Try</button>
     </Link>
     </div>
   );

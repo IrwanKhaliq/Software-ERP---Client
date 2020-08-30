@@ -1,0 +1,33 @@
+$imageHome: url('../images/home.png');;
+$imageMiniDesktop: url('../images/mini_desktop.png');
+$imageMobile: url('../images/mobile.png');
+$noRepeat: no-repeat;
+$hundredVw: 100vw;
+
+.mt-20 {
+  padding-top: 170px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 1300px) {
+  .homes {
+    background-repeat: $noRepeat;
+    background-image: $imageHome;
+    background-size: $hundredVw;
+  }
+}
+
+
+@media only screen and (max-width: 1300px, min-width 415px) {
+  .homes {
+    background-image: $imageMiniDesktop;
+    background-size: $hundredVw;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .homes {
+    background-image: $imageMobile;
+    background-size: $hundredVw;
+  }
+}

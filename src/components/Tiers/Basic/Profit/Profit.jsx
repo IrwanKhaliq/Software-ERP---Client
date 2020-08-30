@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './Profit.scss'
+
 const Profit = () => {
   return (
-    <div>
+    <div className="profit-report">
       <h4>Laporan Profit</h4>
       <table class="table table-hover">
         <thead>

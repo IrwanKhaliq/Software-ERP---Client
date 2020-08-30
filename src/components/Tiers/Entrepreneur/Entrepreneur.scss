@@ -1,0 +1,28 @@
+$minWidthBig: 600px;
+$height: 70px;
+$threeRem: 3rem;
+$twoRem: 2rem;
+
+@media only screen and (min-width: 1024px) {
+  .card-width {
+    width: $minWidthBig;
+    margin-bottom: $threeRem;
+  }
+
+  .card-height {
+    height: $height;
+    padding-top: $twoRem;
+    margin-right: $threeRem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-width {
+    width: 100vw;
+  }
+  .card-height {
+    height: 125px;
+    padding-top: 0;
+    margin: 0;
+  }
+}

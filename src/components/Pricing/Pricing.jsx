@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './Pricing.scss'
+
 import Price from './Price/Price'
 
 const Pricing = () => {
@@ -13,18 +15,21 @@ const Pricing = () => {
       <h3 id="pricing" className="text-center"><b>Pricing</b></h3>
       <div className="d-flex flex-wrap ml-5 mr-5 p-5 justify-content-around">
         <Price className="justify-content-around"
+        key={1}
         price='48'
         category='basic'
         benefits={benefits}
         booleans={basic}
         color={'btn-primary'}/>
         <Price className="justify-content-around"
+        key={2}
         price='88'
         category='business'
         benefits={benefits}
         booleans={business}
         color={'btn-primary'}/>
         <Price className="justify-content-around"
+        key={3}
         price='128'
         category='entrepreneur'
         benefits={benefits}
